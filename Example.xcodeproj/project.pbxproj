@@ -18,6 +18,7 @@
 		C977342B199B8FF9002B9B68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C977340A199B8FF9002B9B68 /* Cocoa.framework */; };
 		C9773433199B8FF9002B9B68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9773431199B8FF9002B9B68 /* InfoPlist.strings */; };
 		C9773435199B8FF9002B9B68 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9773434199B8FF9002B9B68 /* ExampleTests.m */; };
+		C9773440199B9070002B9B68 /* RKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C977343F199B9070002B9B68 /* RKTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C9773430199B8FF9002B9B68 /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C9773432199B8FF9002B9B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9773434199B8FF9002B9B68 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		C977343E199B9070002B9B68 /* RKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTableViewController.h; sourceTree = "<group>"; };
+		C977343F199B9070002B9B68 /* RKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		C97733FE199B8FF9002B9B68 = {
 			isa = PBXGroup;
 			children = (
+				C977343E199B9070002B9B68 /* RKTableViewController.h */,
+				C977343F199B9070002B9B68 /* RKTableViewController.m */,
 				C9773410199B8FF9002B9B68 /* Example */,
 				C977342E199B8FF9002B9B68 /* ExampleTests */,
 				C9773409199B8FF9002B9B68 /* Frameworks */,
@@ -255,6 +260,7 @@
 			files = (
 				C977341E199B8FF9002B9B68 /* BrainStormingAppDelegate.m in Sources */,
 				C9773417199B8FF9002B9B68 /* main.m in Sources */,
+				C9773440199B9070002B9B68 /* RKTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
